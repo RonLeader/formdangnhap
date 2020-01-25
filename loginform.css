@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/1388247.jpg");
+}
+.loginbox {
+    text-align: center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1 {
+    border-bottom: 5px solid #27ae60;
+    color:white;
+
+}
+.textbox {
+    width:200px;
+    height:30px;
+    border: 2px solid #27ae60;
+    border-radius: 30px;
+    margin-top:20px;
+    background:none;
+    color:white;
+    outline:none;
+}
+.btn {
+    background:none;
+    border-radius: 50px;
+    border: 2px solid #27ae60;
+    margin-top:15px;
+    font-size:15px;
+    cursor: pointer;
+    color:white;
+    text-align: center;
+    width: 200px;
+    height:30px;
+    margin-left:20px;
+    transition: 1s 0.1s;
+}
+.btn:hover {
+    border: 2px solid #2980b9;
+}
